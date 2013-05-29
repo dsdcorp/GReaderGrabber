@@ -37,7 +37,7 @@ $GLOBALS['need_readinglist']=false;
 
 
 /***************** lets start the script *************************/
-if (@file_exists('./auth/_myauth.inc')) include('./auth/_myauth.inc');
+if (@file_exists('./auth/_myauth.inc')) include('./auth/_myauth.inc'); // just ignore this
 $GLOBALS['feed_str']="";
 func_clear_log($GLOBALS['log_file'], true);
 print_str("\n");
